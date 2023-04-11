@@ -1,8 +1,11 @@
 # cs32-final-project-AKFCMD
-CS32 Final Project for Aidan Kennedy, Melchior Delloye, Freddie Coffey; A website for music lovers to find recommendations for the perfect song for any occasion.
+CS32 Final Project for Aidan Kennedy, Melchior Delloye, Freddie Coffey; A website for users to be matched with political candidates whom most closely align with their their political issues
 
 #What it will be:
-A website for music lovers (like us!) who can use our engine to discover great songs that fit their preferences. For example, they can retrieve a song based on them liking other songs or an artist, a songtime, a genre, etc, judging song popularity based on cumulative listening time and other factors. Furthermore, to add a social element, users can converse. In this vain, they can each take surveys, and then they can return a combined song recommendation for both of them (they can weight it toward the preferences of one user or the other too). 
+A mixture of python and sequel code in which users awnser a series of questions stating their opinions on relevant, 'hot-button' political issues. User's awnsers will be saved and scored against responses of political candiates in relevant elections. After the quiz is completed, users will be turned an ordered list the top 3 most similar candidates and the similarity of their respective scores.
 
-#Computational Subtask
-A Web-based engine which creates recommendation based on user's music preferences as inputs. 
+#Computational Subtasks
+**Create an algorythm which pairs users to Relevant Candidates**
+Create a database and algorythm which stores scores for relvant political candidates. This database will include (1)Candidate IDs, Candidate names, Position, State, Distict, Election year, ... [Relevant Political Opinions + their Vector (Direction)] 
+
+Take user responses, and assign scores. 
